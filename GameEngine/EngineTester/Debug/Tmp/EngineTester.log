@@ -1,0 +1,12 @@
+﻿          1 file(s) copied.
+  Vector3DTests.cpp
+  Vector2DTests.cpp
+  ProfilesTest.cpp
+  MyMain.cpp
+  Matrix3DTests.cpp
+  Matrix2DTests.cpp
+  ClockTests.cpp
+  gtest-all.cc
+  Generating Code...
+     Creating library C:\MyEngine\GameEngine\EngineTester\Debug\EngineTester.lib and object C:\MyEngine\GameEngine\EngineTester\Debug\EngineTester.exp
+  EngineTester.vcxproj -> C:\MyEngine\GameEngine\EngineTester\Debug\EngineTester.exe

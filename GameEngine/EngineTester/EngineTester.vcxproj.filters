@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="MyMain.cpp" />
+    <ClCompile Include="..\Middleware\gtest\src\gtest-all.cc" />
+    <ClCompile Include="ClockTests.cpp" />
+    <ClCompile Include="Vector2DTests.cpp">
+      <Filter>MathTests</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix2DTests.cpp">
+      <Filter>MathTests</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3DTests.cpp">
+      <Filter>MathTests</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix3DTests.cpp">
+      <Filter>MathTests</Filter>
+    </ClCompile>
+    <ClCompile Include="ProfilesTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HelperFunctions.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="MathTests">
+      <UniqueIdentifier>{639c511d-df8a-4671-a19d-36bef05e6920}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
