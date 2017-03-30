@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Timing\Clock.cpp" />
+    <ClCompile Include="DebugTools\Profiling\Profiler.cpp" />
+    <ClCompile Include="DebugTools\Profiling\Profile.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Math\Vector2D.inl" />
+    <None Include="Math\Matrix2D.inl" />
+    <None Include="Math\Vector3D.inl" />
+    <None Include="Math\Matrix3D.inl" />
+    <None Include="Math\Matrix2DH.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Math\Vector2D.h" />
+    <ClInclude Include="Timing\Clock.h" />
+    <ClInclude Include="Math\Matrix2D.h" />
+    <ClInclude Include="Math\Constants.h" />
+    <ClInclude Include="Math\Matrix3D.h" />
+    <ClInclude Include="Math\Vector3D.h" />
+    <ClInclude Include="DebugTools\Profiling\Profiler.h" />
+    <ClInclude Include="Misc\TypeDefs.h" />
+    <ClInclude Include="DebugTools\Profiling\Profile.h" />
+    <ClInclude Include="Math\Matrix2DH.h" />
+    <ClInclude Include="Rendering\Geometry.h" />
+  </ItemGroup>
+</Project>
